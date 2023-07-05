@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./mowa_logox.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/mowa_logox.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45799926-9"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+    </script>
+    <title>Grupo MowaCorp</title>
+    <meta
+      name="description"
+      content="Easily customizable modern React UI Templates and Components built using TailwindCSS which are also lightweight and simple to setup. All components are modular and fully responsive for great mobile experience as well as big desktop screens.  Brand Colors are also fully customizable. "
+    />
+    <meta property="og:site_name" content="Treact" />
+    <meta property="og:title" content="Free Modern React Templates and Components for Building Landing Pages" />
+    <meta
+      property="og:description"
+      content="Easily customizable modern React UI Templates and Components built using TailwindCSS which are also lightweight and simple to setup. All components are modular and fully responsive for great mobile experience as well as big desktop screens.  Brand Colors are also fully customizable. "
+    />
+    <meta
+      property="og:image"
+      content="data:image/png;base64,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"
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@owaiswiz" />
+    <meta name="twitter:creator" content="@owaiswiz" />
+    <meta name="twitter:title" content="Free Modern React Templates and Components for Building Landing Pages" />
+    <meta
+      name="twitter:description"
+      content="Easily customizable modern React UI Templates and Components built using TailwindCSS which are also lightweight and simple to setup. All components are modular and fully responsive for great mobile experience as well as big desktop screens.  Brand Colors are also fully customizable. "
+    />
+    <meta name="twitter:image"
+    content="https://treact.owaiskhan.me/react-landing-pages-and-components-free-tailwindcss-twitter.png" />
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </body>
+</html>
