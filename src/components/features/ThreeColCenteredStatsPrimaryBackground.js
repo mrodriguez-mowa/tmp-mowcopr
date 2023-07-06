@@ -23,15 +23,15 @@ export default ({
   stats = [
     {
       key: "Mensajes Enviados",
-      value: "5M+",
+      value: "7M+",
     },
     {
       key: "Mensajes Recibidos",
-      value: "2+",
+      value: "3M+",
     },
     {
       key: "Clientes",
-      value: "70+",
+      value: "200+",
     },
   ]
 }) => {
